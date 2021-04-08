@@ -30,7 +30,7 @@ module.exports = {
 
 ## Usage in the browser
 
-While all the variables are available on the server, only variables prefixed with `GRIDSOME_` are available in the browser for security reasons. As you see in the example above, only `GRIDSOME_API_URL` is prefixed. That is because we don't want to have `DB_USER` and `DB_PASS` compiled into our JavaScript.
+While all the variables are available on the server, only variables prefixed with `GRIDSOME_` are available in the browser for security reasons. As you see in the example below, only `GRIDSOME_API_URL` is prefixed. That is because we don't want to have `DB_USER` and `DB_PASS` compiled into our JavaScript.
 
 ```js
 export default {
